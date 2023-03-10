@@ -1,3 +1,3 @@
-# latent-pixel.github.io
+# Bhargav Kumar Soothram
 
-Hey, this is Bhargav!
+Hey, this is Bhargav! I am a Masters student persuing Robotics at the University of Maryland.
