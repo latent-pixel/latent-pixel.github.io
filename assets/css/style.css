@@ -423,6 +423,39 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Socials
+--------------------------------------------------------------*/
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+}
+
+.socials a {
+  margin: 0 10px;
+  padding-top: 1rem;
+  margin-right: 2rem;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.socials i {
+  font-size: 2.5rem;
+  color: #fff; /* set the icon color to white */
+  transition: transform 0.2s ease-in-out;
+}
+
+.socials i:hover {
+  transform: scale(1.2);
+  opacity: 0.7;
+}
+
+.socials a:hover {
+  transform: scale(1.2);
+  opacity: 0.7;
+}
+
+
+/*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
@@ -443,12 +476,15 @@ h6 {
   font-weight: 700;
   line-height: 64px;
   color: #fff;
+  text-align: center;
 }
 
 #hero h2 {
   color: rgba(255, 255, 255, 0.8);
   margin: 10px 0 0 0;
+  padding-top: 0.5rem;
   font-size: 20px;
+  text-align: center;
 }
 
 #hero .btn-get-started {
