@@ -1,0 +1,1 @@
+This repo contains all the files and assets for my website.
